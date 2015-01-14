@@ -50,6 +50,8 @@ table {
 /*End of Reset */
 /*start of Custom Styles */
 
+<link href="css/font-awesome.min.css" rel="stylesheet">
+
 body {
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -171,4 +173,23 @@ button:hover {
 .social {
 	overflow: auto;
 	text-align: center;
+	padding-bottom: 136px;
+}
+.social hr {
+	margin: 17px 0;
+}
+.social .copy {
+	font-size: 13px;
+	font-weight: 300;
+	color: #838994;
+}
+.social .icons > li {
+	border-radius: 17px;
+	width: 35px;
+	height: 35px;
+	border: 1px solid #EAEBEC;
+	display: inline-block;
+	text-align: center;
+	margin: 18px 5px;
+	padding-bottom: 9px 0;
 }
